@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PathPilot – Career Awareness for School Students</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">PathPilot</div>
+        <nav class="nav">
+          <a href="#feature1">Career Awareness</a>
+          <a href="#feature2">Career Discovery</a>
+          <a href="#feature3">Career Quiz</a>
+          <a href="#feature4">My Journey Plan</a>
+          <a href="#feature5">Support Corner</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div>
+            <p class="badge">School Career Awareness</p>
+            <h1>Help students choose careers with confidence, not confusion.</h1>
+            <p class="hero-text">
+              PathPilot is a simple, phone-friendly guide that helps students in Classes 6–12
+              understand career options early using clear language and step‑by‑step guidance.
+            </p>
+            <div class="hero-actions">
+              <a href="#feature3" class="btn primary">Start Career Quiz</a>
+              <a href="#feature2" class="btn ghost">Browse Careers</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Agenda / Mission -->
+      <section class="section agenda">
+        <div class="container">
+          <p class="feature-label">Our Agenda</p>
+          <h2>Democratising career awareness for every student.</h2>
+          <p class="section-intro">
+            PathPilot’s mission is to make career awareness <strong>free, simple, mobile‑first, student‑friendly</strong>,
+            and supported by <strong>live social interaction</strong> through parents and teachers.
+          </p>
+          <div class="grid two-col">
+            <div class="card">
+              <h3>What we believe</h3>
+              <ul>
+                <li>Every child deserves guidance, not just those who can afford counselling.</li>
+                <li>Career information should be easy to read on basic smartphones.</li>
+                <li>Students learn best when parents and teachers join the journey.</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>How this page helps</h3>
+              <ul>
+                <li>Explains the <strong>career awareness problem</strong> in simple language.</li>
+                <li>Lets you <strong>search and filter careers</strong> by stream or interest.</li>
+                <li>Offers a light <strong>quiz and journey planner</strong> as an AI‑style guide.</li>
+                <li>Gives <strong>practical tips</strong> for students, parents, and teachers.</li>
+              </ul>
+              <p class="note">
+                Because the right guidance at the right time can change a student’s entire future.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature 1: Career Awareness Section -->
+      <section id="feature1" class="section">
+        <div class="container">
+          <p class="feature-label">Feature 1 · Career Awareness</p>
+          <h2>Why early career guidance matters.</h2>
+          <div class="grid two-col">
+            <div class="card">
+              <h3>Why is early guidance important?</h3>
+              <p>
+                Students start choosing subjects and thinking about “what to become” as early as
+                Class 6–8. Clear, simple guidance at this stage helps them:
+              </p>
+              <ul>
+                <li>Understand what different careers actually do in real life.</li>
+                <li>See how school subjects connect to future jobs.</li>
+                <li>Build confidence instead of stress around exams and choices.</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Who is affected?</h3>
+              <ul>
+                <li><strong>Students (Classes 6–12)</strong> who are unsure about subjects and streams.</li>
+                <li><strong>Parents</strong> who want to support their children but lack clear tools.</li>
+                <li><strong>Teachers</strong> who care but do not have ready‑to‑use resources.</li>
+              </ul>
+              <h3>What happens if we delay guidance?</h3>
+              <ul>
+                <li>Wrong stream or subject selection in Classes 9–12.</li>
+                <li>Higher academic stress and even school dropouts.</li>
+                <li>Wasted years and financial pressure on families.</li>
+                <li>Loss of confidence and motivation among students.</li>
+              </ul>
+              <p class="note">
+                The goal of this section is to <strong>educate first</strong> and then gently guide
+                students toward exploration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature 2: Career Discovery -->
+      <section id="feature2" class="section alt">
+        <div class="container">
+          <p class="feature-label">Feature 2 · Career Discovery</p>
+          <h2>Explore careers by interest and subject.</h2>
+          <p class="section-intro">
+            Browse popular paths across Science, Commerce, Arts, vocational and skill‑based roles,
+            and government or private‑sector careers. Use the filters to search by stream or
+            interest, then tap a card to see details.
+          </p>
+
+          <div class="filters">
+            <button class="chip active" data-filter="all">All</button>
+            <button class="chip" data-filter="science">Science</button>
+            <button class="chip" data-filter="commerce">Commerce</button>
+            <button class="chip" data-filter="arts">Arts / Humanities</button>
+            <button class="chip" data-filter="vocational">Vocational / Skill‑based</button>
+            <button class="chip" data-filter="govt">Government</button>
+            <button class="chip" data-filter="private">Private‑sector</button>
+          </div>
+
+          <div class="grid three-col" id="career-list">
+            <!-- Example career cards; more can be added easily -->
+            <article class="career-card" data-tags="science private">
+              <h3>Software Engineer</h3>
+              <p class="career-tagline">Build apps, websites, and digital tools.</p>
+              <details>
+                <summary>View details</summary>
+                <p><strong>Eligibility:</strong> Science stream; focus on Maths, Computer Science.</p>
+                <p><strong>Skills:</strong> Problem‑solving, logic, basic coding, teamwork.</p>
+                <p><strong>Education Pathway:</strong> B.Tech / B.E. in Computer Science or related, or BCA.</p>
+                <p><strong>Next Steps After School:</strong> Learn basic programming, build small projects, join tech clubs or online coding challenges.</p>
+              </details>
+            </article>
+
+            <article class="career-card" data-tags="science govt">
+              <h3>Doctor</h3>
+              <p class="career-tagline">Care for patients and improve health.</p>
+              <details>
+                <summary>View details</summary>
+                <p><strong>Eligibility:</strong> Science with Biology; strong marks in NEET‑level exams.</p>
+                <p><strong>Skills:</strong> Empathy, patience, attention to detail, science basics.</p>
+                <p><strong>Education Pathway:</strong> MBBS and further specialisation.</p>
+                <p><strong>Next Steps After School:</strong> Prepare for medical entrance exams, volunteer in health camps, strengthen Biology and Chemistry.</p>
+              </details>
+            </article>
+
+            <article class="career-card" data-tags="commerce private">
+              <h3>Chartered Accountant (CA)</h3>
+              <p class="career-tagline">Manage money, accounts, and finance.</p>
+              <details>
+                <summary>View details</summary>
+                <p><strong>Eligibility:</strong> Commerce stream is preferred but not compulsory.</p>
+                <p><strong>Skills:</strong> Maths, accuracy, patience, analytical thinking.</p>
+                <p><strong>Education Pathway:</strong> CA Foundation, Intermediate, and Final with practical training.</p>
+                <p><strong>Next Steps After School:</strong> Choose Commerce, strengthen Accounts and Maths, explore basics of business and taxation.</p>
+              </details>
+            </article>
+
+            <article class="career-card" data-tags="arts govt">
+              <h3>Civil Services Officer (IAS / IPS)</h3>
+              <p class="career-tagline">Work with the government to serve the country.</p>
+              <details>
+                <summary>View details</summary>
+                <p><strong>Eligibility:</strong> Any stream in Class 11–12; graduation in any discipline.</p>
+                <p><strong>Skills:</strong> Reading, writing, current affairs, decision‑making.</p>
+                <p><strong>Education Pathway:</strong> Bachelor’s degree + UPSC Civil Services Examination.</p>
+                <p><strong>Next Steps After School:</strong> Read newspapers, practise writing answers, build strong basics in History, Polity, Economics.</p>
+              </details>
+            </article>
+
+            <article class="career-card" data-tags="vocational private">
+              <h3>Electrician / Technician</h3>
+              <p class="career-tagline">Install and repair electrical systems.</p>
+              <details>
+                <summary>View details</summary>
+                <p><strong>Eligibility:</strong> Class 10 or 12; ITI or polytechnic course.</p>
+                <p><strong>Skills:</strong> Practical hands‑on work, safety awareness, problem‑solving.</p>
+                <p><strong>Education Pathway:</strong> ITI in Electrician, Diploma courses, on‑the‑job training.</p>
+                <p><strong>Next Steps After School:</strong> Join a recognised ITI, practise with supervision, learn safety rules.</p>
+              </details>
+            </article>
+
+            <article class="career-card" data-tags="arts private">
+              <h3>Graphic Designer</h3>
+              <p class="career-tagline">Create posters, logos, and digital designs.</p>
+              <details>
+                <summary>View details</summary>
+                <p><strong>Eligibility:</strong> Any stream; design courses preferred.</p>
+                <p><strong>Skills:</strong> Creativity, drawing, basic computer skills.</p>
+                <p><strong>Education Pathway:</strong> Diploma or degree in Design, short‑term design courses.</p>
+                <p><strong>Next Steps After School:</strong> Build a simple portfolio, learn design tools, practise with school events and competitions.</p>
+              </details>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature 3: Interactive Quiz / Career Matching -->
+      <section id="feature3" class="section">
+        <div class="container">
+          <p class="feature-label">Feature 3 · Interactive Quiz</p>
+          <h2>Find careers that match your interests.</h2>
+          <p class="section-intro">
+            Answer a few simple questions. We will suggest streams and career groups you can start
+            exploring. This is a light, AI‑style guide for <strong>learning and awareness</strong>,
+            not final decisions.
+          </p>
+
+          <form id="quiz-form" class="card quiz">
+            <div class="quiz-item">
+              <p>1. Which activity do you enjoy the most?</p>
+              <label><input type="radio" name="q1" value="science" /> Doing experiments, solving science or maths problems</label>
+              <label><input type="radio" name="q1" value="commerce" /> Calculating money, planning a small business idea</label>
+              <label><input type="radio" name="q1" value="arts" /> Drawing, writing stories, acting, or music</label>
+              <label><input type="radio" name="q1" value="vocational" /> Fixing things, building or repairing gadgets</label>
+            </div>
+
+            <div class="quiz-item">
+              <p>2. Which subject do you find most interesting at school?</p>
+              <label><input type="radio" name="q2" value="science" /> Science / Mathematics</label>
+              <label><input type="radio" name="q2" value="commerce" /> Maths related to money, Business Studies</label>
+              <label><input type="radio" name="q2" value="arts" /> History, Geography, Languages</label>
+              <label><input type="radio" name="q2" value="vocational" /> Work experience, practical subjects, crafts</label>
+            </div>
+
+            <div class="quiz-item">
+              <p>3. How would you like to help people in the future?</p>
+              <label><input type="radio" name="q3" value="science" /> By solving technical or health problems</label>
+              <label><input type="radio" name="q3" value="commerce" /> By helping manage money, jobs, or businesses</label>
+              <label><input type="radio" name="q3" value="arts" /> By sharing ideas, art, stories, or social change</label>
+              <label><input type="radio" name="q3" value="govt" /> By working with the government and public service</label>
+            </div>
+
+            <div class="quiz-item">
+              <p>4. What kind of work place sounds most exciting?</p>
+              <label><input type="radio" name="q4" value="private" /> Office or company with teams and projects</label>
+              <label><input type="radio" name="q4" value="govt" /> Government office serving the public</label>
+              <label><input type="radio" name="q4" value="vocational" /> Workshop, lab, or on‑site practical work</label>
+              <label><input type="radio" name="q4" value="arts" /> Studio, stage, classroom, or creative space</label>
+            </div>
+
+            <div class="quiz-actions">
+              <button type="submit" class="btn primary full">See Matching Career Groups</button>
+            </div>
+          </form>
+
+          <div id="quiz-result" class="quiz-result card hidden">
+            <h3>Your suggested career groups</h3>
+            <p id="quiz-streams"></p>
+            <p>
+              You can now scroll to the <a href="#feature2">Career Discovery</a> section and explore
+              careers in these groups. Talk to your parents and teachers about what you discover.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature 4: My Journey Planner (Open Innovation) -->
+      <section id="feature4" class="section alt">
+        <div class="container">
+          <p class="feature-label">Feature 4 · My Journey Plan</p>
+          <h2>See simple next steps from your class to your goal.</h2>
+          <p class="section-intro">
+            Choose your current class and interest area. Get a short, clear roadmap you can follow
+            with help from parents and teachers.
+          </p>
+
+          <div class="card planner">
+            <div class="planner-controls">
+              <label>
+                Current Class
+                <select id="planner-class">
+                  <option value="6-8">Class 6–8</option>
+                  <option value="9-10">Class 9–10</option>
+                  <option value="11-12">Class 11–12</option>
+                </select>
+              </label>
+              <label>
+                Interest Area
+                <select id="planner-interest">
+                  <option value="science">Science & Technology</option>
+                  <option value="commerce">Business & Finance</option>
+                  <option value="arts">Arts & Social Studies</option>
+                  <option value="vocational">Hands‑on / Skill‑based</option>
+                  <option value="govt">Government & Public Service</option>
+                </select>
+              </label>
+              <button id="planner-generate" class="btn primary">Show My Plan</button>
+            </div>
+
+            <div id="planner-output" class="planner-output">
+              <p class="muted">Your personalised plan will appear here.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature 5: Parent & Teacher Support Corner (Open Innovation) -->
+      <section id="feature5" class="section">
+        <div class="container">
+          <p class="feature-label">Feature 5 · Support Corner</p>
+          <h2>Simple guidance for parents and teachers.</h2>
+          <p class="section-intro">
+            Career awareness improves when adults around the child feel confident. Select your role
+            to see 3–4 clear actions you can start this week.
+          </p>
+
+          <div class="card support">
+            <div class="role-tabs">
+              <button class="chip small active" data-role="student">I am a Student</button>
+              <button class="chip small" data-role="parent">I am a Parent</button>
+              <button class="chip small" data-role="teacher">I am a Teacher</button>
+            </div>
+            <div id="support-content" class="support-content">
+              <!-- Content will be filled by JS for simplicity and reuse -->
+            </div>
+            <form id="feedback-form" class="feedback">
+              <h3>Share a quick suggestion</h3>
+              <p class="muted">
+                No login needed. This demo form is for practice; in a real app, responses would help
+                improve guidance quality.
+              </p>
+              <label>
+                Your idea or feedback
+                <textarea id="feedback-text" rows="3" placeholder="E.g., add careers in sports, defence, local jobs…"></textarea>
+              </label>
+              <button type="submit" class="btn primary">Submit Feedback</button>
+              <p id="feedback-message" class="muted"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>PathPilot · Simple career awareness for school students · No login required.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
